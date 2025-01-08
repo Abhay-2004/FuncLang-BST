@@ -1,0 +1,34 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Connections -->
+    <path d="M400,80 L250,160" stroke="#666" stroke-width="2" fill="none"/>
+    <path d="M400,80 L550,160" stroke="#666" stroke-width="2" fill="none"/>
+    <path d="M250,160 L175,240" stroke="#666" stroke-width="2" fill="none"/>
+    <path d="M250,160 L325,240" stroke="#666" stroke-width="2" fill="none"/>
+    <path d="M550,160 L475,240" stroke="#666" stroke-width="2" fill="none"/>
+    <path d="M550,160 L625,240" stroke="#666" stroke-width="2" fill="none"/>
+    
+    <!-- Nodes -->
+    <g fill="#4A90E2" stroke="#2171C7" stroke-width="2">
+        <!-- Root -->
+        <circle cx="400" cy="80" r="30"/>
+        <!-- Level 1 -->
+        <circle cx="250" cy="160" r="30"/>
+        <circle cx="550" cy="160" r="30"/>
+        <!-- Level 2 -->
+        <circle cx="175" cy="240" r="30"/>
+        <circle cx="325" cy="240" r="30"/>
+        <circle cx="475" cy="240" r="30"/>
+        <circle cx="625" cy="240" r="30"/>
+    </g>
+    
+    <!-- Node Values -->
+    <g fill="white" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-weight="bold">
+        <text x="400" y="80">50</text>
+        <text x="250" y="160">30</text>
+        <text x="550" y="160">70</text>
+        <text x="175" y="240">20</text>
+        <text x="325" y="240">40</text>
+        <text x="475" y="240">60</text>
+        <text x="625" y="240">80</text>
+    </g>
+</svg>
