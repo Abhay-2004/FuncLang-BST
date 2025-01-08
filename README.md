@@ -31,24 +31,25 @@ A pure functional implementation of a Binary Search Tree (BST) data structure in
 ;; Get tree structure
 (gettree t1)
 ;; Output: (50 (30 (20 () ()) (40 () ())) (70 (60 () ()) (80 () ())))
+```
+##Implementation Details
 
-Implementation Details
 The BST maintains the following invariants:
 
-Each node has at most two children
-Left subtree contains values less than the parent
-Right subtree contains values greater than the parent
-Duplicate values are handled by inserting to alternate subtrees
+- Each node has at most two children
+- Left subtree contains values less than the parent
+- Right subtree contains values greater than the parent
+- Duplicate values are handled by inserting to alternate subtrees
 
-Key functions:
+## Key functions:
 
-make_node: Creates a new tree node
-insert_one: Handles single value insertion
-join_lists: Merges sorted lists during traversal
+- make_node: Creates a new tree node
+- insert_one: Handles single value insertion
+- join_lists: Merges sorted lists during traversal
 
-Time Complexity
+## Time Complexity
 
-Construction: O(n log n)
-Insertion: O(log n)
-Traversal: O(n)
-Structure Access: O(1)
+- Construction: O(n log n)
+- Insertion: O(log n)
+- Traversal: O(n)
+- Structure Access: O(1)
